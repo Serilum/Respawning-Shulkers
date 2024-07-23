@@ -51,6 +51,10 @@ public class ShulkerEvent {
 				return;
 			}
 		}
+
+		if (tags.contains("flowermimics.mimic")) {
+			return;
+		}
 		
 		Shulker newshulker = EntityType.SHULKER.create(level);
 		newshulker.restoreFrom(entity);
