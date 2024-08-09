@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "respawningshulkers",
+  "version": "4.0",
+
+  "name": "Respawning Shulkers",
+  "description": "Shulkers will respawn on their death location after a configurable delay to make them more sustainable.",
+  "authors": [ "Rick South" ],
+  "contact": {
+    "homepage": "https://serilum.com/mod/respawning-shulkers",
+    "sources": "https://github.com/Serilum/Respawning-Shulkers",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Respawning%20Shulkers"
+  },
+
+  "license": "All Right Reserved",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": { "main": [ "com.natamus.respawningshulkers.ModFabric" ], "modmenu": [ "com.natamus.respawningshulkers.fabric.config.IntegrateModMenu" ] },
+
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": ">=1.21",
+    "java": ">=21",
+    "collective": ">=7.80"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Donate <3" : "https://ricksouth.com/donate"
+      }
+    }
+  },
+
+  "contributors": [
+	  " ",
+	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
+	  " ",
+	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  " ",
+	  "Membership sponsors:",
+	  " Alister",
+	  " Andrean Olgo",
+	  " aternosorg",
+	  " Cherriesaurus",
+	  " Michael W. S.",
+	  " Nahuel Fernandez",
+	  " Shana Gitnick",
+	  " Tyler Behl"
+  ]
+}
