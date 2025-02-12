@@ -10,12 +10,10 @@ import net.minecraftforge.event.entity.living.LivingDeathEvent;
 import net.minecraftforge.event.server.ServerStoppingEvent;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 
-@EventBusSubscriber
 public class ForgeShulkerEvent {
 	@SubscribeEvent
-	public void onWorldTick(LevelTickEvent e) {
+	public static void onWorldTick(LevelTickEvent e) {
 		Level level = e.level;
 		if (level.isClientSide || !e.phase.equals(Phase.START)) {
 			return;
@@ -25,13 +23,13 @@ public class ForgeShulkerEvent {
 	}
 	
 	@SubscribeEvent(priority = EventPriority.LOWEST)
-	public void onShulkerDeath(LivingDeathEvent e) {
+	public static void onShulkerDeath(LivingDeathEvent e) {
 		Entity entity = e.getEntity();
 		ShulkerEvent.onShulkerDeath(entity.level(), entity, e.getSource());
 	}
 	
 	@SubscribeEvent
-	public void onServerShutdown(ServerStoppingEvent e) {
+	public static void onServerShutdown(ServerStoppingEvent e) {
 		ShulkerEvent.onServerShutdown(e.getServer());
 	}
 }

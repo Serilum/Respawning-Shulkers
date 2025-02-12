@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="respawningshulkers"
-version="4.0"
+version="4.1"
 displayName="Respawning Shulkers"
 displayURL="https://serilum.com/mod/respawning-shulkers"
 authors="Rick South"
@@ -14,7 +14,7 @@ description='''Shulkers will respawn on their death location after a configurabl
 '''
 credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
 
-Alister, Andrean Olgo, aternosorg, Cherriesaurus, LyraKeaton, Michael W. S., Tyler Behl, XAgent   
+Alister, Andrean Olgo, aternosorg, Cherriesaurus, David Sanchez, drdog111, Michael W. S., t128, Tyler Behl, XAgent   
 
 If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
 '''
@@ -22,7 +22,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.respawningshulkers]]
     modId="collective"
     type="required"
-    versionRange="[7.89,)"
+    versionRange="[7.91,)"
     ordering="NONE"
     side="BOTH"
 
