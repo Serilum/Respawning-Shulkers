@@ -8,7 +8,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntitySpawnReason;
-import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.EntityTypes;
 import net.minecraft.world.entity.monster.Shulker;
 import net.minecraft.world.level.Level;
 
@@ -57,7 +57,7 @@ public class ShulkerEvent {
 			return;
 		}
 		
-		Shulker newshulker = EntityType.SHULKER.create(level, EntitySpawnReason.NATURAL);
+		Shulker newshulker = EntityTypes.SHULKER.create(level, EntitySpawnReason.NATURAL);
 		newshulker.restoreFrom(entity);
 		newshulker.setHealth(30F);
 		
