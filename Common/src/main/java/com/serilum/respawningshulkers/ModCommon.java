@@ -1,6 +1,6 @@
-package com.natamus.respawningshulkers;
+package com.serilum.respawningshulkers;
 
-import com.natamus.respawningshulkers.config.ConfigHandler;
+import com.serilum.respawningshulkers.config.ConfigHandler;
 
 public class ModCommon {
 

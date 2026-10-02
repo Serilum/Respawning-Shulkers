@@ -1,10 +1,10 @@
-package com.natamus.respawningshulkers;
+package com.serilum.respawningshulkers;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.respawningshulkers.forge.config.IntegrateForgeConfig;
-import com.natamus.respawningshulkers.forge.events.ForgeShulkerEvent;
-import com.natamus.respawningshulkers.util.Reference;
+import com.serilum.respawningshulkers.forge.config.IntegrateForgeConfig;
+import com.serilum.respawningshulkers.forge.events.ForgeShulkerEvent;
+import com.serilum.respawningshulkers.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -32,7 +32,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(ForgeShulkerEvent.class);
+		MinecraftForge.EVENT_BUS.register(ForgeShulkerEvent.class);
 	}
 
 	private static void setGlobalConstants() {

@@ -1,10 +1,10 @@
-package com.natamus.respawningshulkers;
+package com.serilum.respawningshulkers;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectiveEntityEvents;
-import com.natamus.respawningshulkers.events.ShulkerEvent;
-import com.natamus.respawningshulkers.util.Reference;
+import com.serilum.respawningshulkers.events.ShulkerEvent;
+import com.serilum.respawningshulkers.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
