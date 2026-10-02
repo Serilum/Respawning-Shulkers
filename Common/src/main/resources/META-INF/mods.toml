@@ -1,28 +1,28 @@
 modLoader="javafml"
 loaderVersion="*"
-license="All rights reserved"
+license="All Rights Reserved"
 issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Respawning%20Shulkers"
 logoFile="icon.png"
 
 [[mods]]
 modId="respawningshulkers"
-version="4.2"
+version="4.3"
 displayName="Respawning Shulkers"
 displayURL="https://serilum.com/mod/respawning-shulkers"
-authors="Rick South"
+authors="Serilum"
 description='''Shulkers will respawn on their death location after a configurable delay to make them more sustainable.
 '''
 credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
 
 Andrean Olgo, AnyankaT, aternosorg, Cherriesaurus, Linda Jansen, MWS, Tyler Behl   
 
-If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
+If you would like to contribute too, check out https://serilum.com/donate Appreciate it! <3   
 '''
 
 [[dependencies.respawningshulkers]]
     modId="collective"
     mandatory=true
-    versionRange="[8.39,)"
+    versionRange="[8.40,)"
     ordering="NONE"
     side="BOTH"
 

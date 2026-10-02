@@ -1,10 +1,10 @@
-package com.natamus.respawningshulkers;
+package com.serilum.respawningshulkers;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.respawningshulkers.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.respawningshulkers.neoforge.events.NeoForgeShulkerEvent;
-import com.natamus.respawningshulkers.util.Reference;
+import com.serilum.respawningshulkers.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.respawningshulkers.neoforge.events.NeoForgeShulkerEvent;
+import com.serilum.respawningshulkers.util.Reference;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
