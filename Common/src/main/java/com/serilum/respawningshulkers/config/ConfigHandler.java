@@ -1,7 +1,7 @@
-package com.natamus.respawningshulkers.config;
+package com.serilum.respawningshulkers.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.respawningshulkers.util.Reference;
+import com.serilum.respawningshulkers.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;

@@ -1,8 +1,8 @@
-package com.natamus.respawningshulkers.events;
+package com.serilum.respawningshulkers.events;
 
 import com.natamus.collective.functions.HashMapFunctions;
 import com.natamus.collective.util.CollectiveReference;
-import com.natamus.respawningshulkers.config.ConfigHandler;
+import com.serilum.respawningshulkers.config.ConfigHandler;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.damagesource.DamageSource;

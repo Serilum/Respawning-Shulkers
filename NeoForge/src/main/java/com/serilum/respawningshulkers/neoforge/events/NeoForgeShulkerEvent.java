@@ -1,6 +1,6 @@
-package com.natamus.respawningshulkers.neoforge.events;
+package com.serilum.respawningshulkers.neoforge.events;
 
-import com.natamus.respawningshulkers.events.ShulkerEvent;
+import com.serilum.respawningshulkers.events.ShulkerEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.level.Level;
