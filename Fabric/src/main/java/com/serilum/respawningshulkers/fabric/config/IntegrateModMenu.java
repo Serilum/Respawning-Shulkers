@@ -1,7 +1,7 @@
-package com.natamus.respawningshulkers.fabric.config;
+package com.serilum.respawningshulkers.fabric.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.respawningshulkers.util.Reference;
+import com.serilum.respawningshulkers.util.Reference;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 

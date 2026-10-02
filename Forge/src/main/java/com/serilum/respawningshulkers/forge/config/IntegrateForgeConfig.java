@@ -1,7 +1,7 @@
-package com.natamus.respawningshulkers.forge.config;
+package com.serilum.respawningshulkers.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.respawningshulkers.util.Reference;
+import com.serilum.respawningshulkers.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 
